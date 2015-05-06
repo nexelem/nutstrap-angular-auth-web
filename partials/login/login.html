@@ -1,0 +1,42 @@
+<div id="content" ng-controller="LoginCtrl as lc">
+    <div class="col-xs-6 col-xs-offset-3" id="loginform">
+        <div class="box">
+            <div class="title">
+                <h5>Zaloguj się</h5>
+            </div>
+            <div class="content">
+                <form class="form-horizontal" role="form" ng-submit="lc.login()" name="logForm" id="logForm">
+                    <div class="form-group" has-error="logForm.inputLogin3">
+                        <label for="inputLogin3" class="col-sm-3 control-label" is-required="logForm.inputLogin3">Identyfikator</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="inputLogin3" name="inputLogin3" placeholder="{{ 'login_placeholder_login' | translate }}" ng-model="lc.userlogin.username" required>
+                            <error-span for='logForm.inputLogin3' type="required"></error-span>
+                        </div>
+                    </div>
+                    <div class="form-group" has-error="logForm.inputPassword3">
+                        <label for="inputPassword3" class="col-sm-3 control-label" is-required="logForm.inputPassword3">Hasło</label>
+                        <div class="col-sm-9">
+                            <input type="password" class="form-control" id="inputPassword3" name="inputPassword3" placeholder="*******" ng-model="lc.userlogin.clearTextPassword" required>
+                            <error-span for='logForm.inputPassword3' type="required"></error-span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"> Zapamiętaj mnie
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-default" ng-disabled="!logForm.$valid">Zaloguj</button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
