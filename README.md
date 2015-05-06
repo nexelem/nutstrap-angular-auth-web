@@ -2,11 +2,13 @@
 
 This module contains AngularJS functionality to manage *Users* including controllers, directives and integration services with the `users-play` module.
 
-### Build
-
-gradle build
-
 #### Using the module
+
+Download library manually or add using bower:
+
+```
+bower install https://github.com/nexelem/angular-auth-web
+```
 
 Include the library in your main angular file  (app.coffee / app.js).
 
