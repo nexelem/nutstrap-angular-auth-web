@@ -1,7 +1,8 @@
 
 class UserModel
 
-    constructor: (@$log, @PermissionModel) ->
+    constructor: ($log, @PermissionModel) ->
+        @$log = $log.getInstance 'UserModel'
         @users = []
         @authenticatedUser
         @bootstrapped = false

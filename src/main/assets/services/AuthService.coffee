@@ -1,7 +1,7 @@
 
 class AuthService
 
-    constructor: (@$log, @$q, @flash, @$location, @HttpService, @UserModel, @UserConfig) ->
+    constructor: ($log, @$q, @flash, @$location, @HttpService, @UserModel, @UserConfig) ->
         @$log = $log.getInstance 'Nutstrap'
         @$log.debug "constructing"
 

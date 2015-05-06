@@ -1,6 +1,6 @@
 class LoginCtrl
 
-    constructor: (@$log, @$location, @$rootScope, @AuthService, @UserModel, @flash) ->
+    constructor: ($log, @$location, @$rootScope, @AuthService, @UserModel, @flash) ->
         @$log = $log.getInstance 'LoginCtrl'
         @$log.debug("constructing")
         @userlogin = {}
