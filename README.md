@@ -7,8 +7,12 @@ This module contains AngularJS functionality to manage *Users* including control
 Download library manually or add using bower:
 
 ```
-bower install https://github.com/nexelem/angular-auth-web
+bower install https://github.com/nexelem/angular-auth-web.git
 ```
+
+To compile coffeescript, copy files to dist and concat into one use respectively grunt tasks: coffee, copy and uglify.
+grunt dist runs all those tasks.
+Complete, minified js file can be found in dist/auth-module.min.js
 
 Include the library in your main angular file  (app.coffee / app.js).
 
