@@ -1,4 +1,4 @@
-### angular-users-web
+### nutstrap-angular-users-web
 
 This module contains AngularJS functionality to manage *Users* including controllers, directives and integration services with the `users-play` module.
 
@@ -7,7 +7,7 @@ This module contains AngularJS functionality to manage *Users* including control
 Download library manually or add using bower:
 
 ```
-bower install https://github.com/nexelem/angular-auth-web.git
+bower install https://github.com/nexelem/nutstrap-angular-auth-web.git
 ```
 
 To compile coffeescript, copy files to dist and concat into one use respectively grunt tasks: coffee, copy and uglify.
