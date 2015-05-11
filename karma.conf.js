@@ -13,26 +13,26 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      // Angular libs
-      './../../test-runner/libs/angularjs/' + ANGULAR_JS_VERSION + '/angular.js',
-
-      // Testing libs
-      './../../test-runner/libs/angularjs/' + ANGULAR_JS_VERSION + '/angular-mocks.js',
-
-      // Testing libs
-      './../../test-runner/libs/angularjs/' + ANGULAR_JS_VERSION + '/angular-route.js',
-
-      // App libs
-      './../../test-runner/public/javascripts/**/*.js',
-
-      // Test helper
-      './../../test-runner/libs/javascript/BaseTestHelper.js',
-      './test/BaseTestHelper.js',
-
-      // CoffeeScript dependencies
-      './../common-web/src/main/assets/**/*.coffee',
-      './../i18n-web/src/main/assets/**/*.coffee',
-      './../filters-web/src/main/assets/**/*.coffee',
+//      // Angular libs
+//      './../../test-runner/libs/angularjs/' + ANGULAR_JS_VERSION + '/angular.js',
+//
+//      // Testing libs
+//      './../../test-runner/libs/angularjs/' + ANGULAR_JS_VERSION + '/angular-mocks.js',
+//
+//      // Testing libs
+//      './../../test-runner/libs/angularjs/' + ANGULAR_JS_VERSION + '/angular-route.js',
+//
+//      // App libs
+//      './../../test-runner/public/javascripts/**/*.js',
+//
+//      // Test helper
+//      './../../test-runner/libs/javascript/BaseTestHelper.js',
+//      './test/BaseTestHelper.js',
+//
+//      // CoffeeScript dependencies
+//      './../common-web/src/main/assets/**/*.coffee',
+//      './../i18n-web/src/main/assets/**/*.coffee',
+//      './../filters-web/src/main/assets/**/*.coffee',
 
       // CoffeeScript Complied JS
       './src/main/assets/user-module.coffee',

@@ -1,6 +1,6 @@
 {
   "name": "angular-auth-web",
-  "version": "0.2",
+  "version": "0.2.0",
   "homepage": "https://github.com/nexelem/angular-auth-web",
   "main": "auth-module.min.js",
   "authors": [
