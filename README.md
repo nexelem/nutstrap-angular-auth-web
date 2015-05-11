@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/nexelem/nutstrap-angular-auth-web.svg)](https://travis-ci.org/nexelem/nutstrap-angular-auth-web)
+
 ### nutstrap-angular-users-web
 
 This module contains AngularJS functionality to manage *Users* including controllers, directives and integration services with the `users-play` module.
