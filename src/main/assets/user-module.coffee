@@ -2,6 +2,6 @@
     .config(($routeProvider) ->
         $routeProvider
             .when('/login', {
-                templateUrl: '/assets/lib/angular-auth-web/login/login.html'
+                templateUrl: '/libs/angular-auth-web/dist/login.html'
             })
     )
